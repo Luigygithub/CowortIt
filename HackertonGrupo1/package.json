@@ -1,0 +1,22 @@
+{
+  "name": "hackerton_grupo1",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "populate": "node populate.mjs",
+    "dev": "next dev -p 33019",
+    "build": "next build -p 33019",
+    "start": "next start -p 33019",
+    "lint": "next lint -p 33019"
+  },
+  "dependencies": {
+    "mongodb": "^4.7.0",
+    "next": "12.1.6",
+    "react": "18.1.0",
+    "react-dom": "18.1.0"
+  },
+  "devDependencies": {
+    "eslint": "8.17.0",
+    "eslint-config-next": "12.1.6"
+  }
+}
